@@ -1,4 +1,4 @@
 {
-  "assetsBaseUrl": "http://192.168.0.100:9000/assets/",
+  "assetsBaseUrl": "https://donewithitapp.herokuapp.com/assets/",
   "port": 9000
 }
