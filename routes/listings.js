@@ -20,10 +20,7 @@ const schema = {
   description: Joi.string().allow(""),
   price: Joi.number().required().min(1),
   categoryId: Joi.number().required().min(1),
-  location: Joi.object({
-    latitude: Joi.number().required(),
-    longitude: Joi.number().required(),
-  }).optional(),
+  location: Joi.object().optional(),
 };
 
 const validateCategoryId = (req, res, next) => {
